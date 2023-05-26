@@ -1,0 +1,335 @@
+body{
+    /* overflow:hidden; */
+
+    padding:0px;
+}
+/* sec1 css */
+h3{
+    font-family: 'Merriweather', serif!important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.words{
+    position:absolute;
+    height:60vh;
+    width:40vw;
+    left:15vw;
+    top:30vh;
+    z-index: 10000;
+}
+.plate{
+    position:absolute;
+    left: 55vw;
+    top: 30vh;
+}
+.leaf{
+    position: absolute;
+    top:100vh;
+    left: -7vw;
+}
+.leaf img{
+    z-index: -1;
+    z-index: -4;
+    height: 380px;
+    width: 420px;
+    transform: rotate(45deg);
+}
+.plate img{
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
+.sec1{
+    padding-top: 20px;
+    height: 100vh;
+    width : 100vw;
+    background: url("images/green-circle.png") center center/cover;
+}
+.navbar{
+    z-index: 1000;
+    margin-left:15%;
+    margin-right:15%;
+    border-radius:40px;
+}
+.navbar-brand{
+    font-size:30px;
+    font-family: 'Anton', sans-serif;
+}
+.food{
+    color: orange;
+}
+.village{
+    color: green;
+}
+.navbar-nav{
+    margin-left:80px;
+    font-size: 15px;
+}
+.nav-item{
+    margin-left:30px;
+    /* margin-left:30px; */
+}
+.oBtn{
+    background-color: orange;
+    color: white;
+    border-radius:25px;
+}
+.navColour{
+    background-color: rgb(167, 243, 167);
+    /* background-color: rgb(131, 228, 131); */
+}
+
+/* features */
+
+#features{
+    margin-top:70vh;
+    padding-left:10%;
+    padding-right:10%;
+    z-index: 40000;
+    
+}
+.one{
+    margin-left: 50px;
+    margin-bottom:15px;
+    color: green;
+}
+.two{
+    margin-left: 100px;
+    margin-bottom:15px;
+    color: green;
+}
+.three{
+    margin-left: 80px;
+    margin-bottom:15px;
+    color: green;
+}
+p{
+    margin-left: 50px;
+}
+.indexing{
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+
+/* section3 */
+
+.image3{
+    height: 105vh;
+    width : 100vw;
+    background: url("images/left-circle.png") center center/cover;
+}
+.pizza2{
+    position:absolute;
+    top:230vh;
+    left:5vw;
+}
+.pizza2 img{
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
+.quality
+{
+    position:absolute;
+    height:60vh;
+    width:50vw;
+    left:40vw;
+    top:230vh;
+}
+h1{
+    font-family: 'Merriweather', serif!important;
+    font-size:50px;
+    padding-left:40px;
+}
+.details
+{
+    /* margin-left:10vw; */
+    padding-left: 40px;
+    font-family: 'Merriweather', serif!important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.cc{
+    padding-left:40px;
+}
+
+/* section 4 */
+.services{
+    margin-top:30px;
+    margin-left:30vw;
+    height:35vh;
+    width:45vw;
+}
+.ser{
+    margin-left: 50px;
+}
+.ser2{
+    margin-left:-40px;
+}
+.cards{
+    margin-top:10px;
+}
+.delivery {
+    margin-top:5px;
+    margin-left:140px;
+    height:100px;
+    width:70px;
+    background-color: rgba(161, 248, 161, 0.831);
+    border-radius: 50%;
+}
+h5{
+    margin-left:110px;
+}
+.dd{
+    margin-left:100px;
+    color:white;
+    background-color: rgb(240, 175, 54);
+}
+.cads{
+    padding-left:40px;
+    padding-right:40px;
+}
+.section4
+{
+    margin-bottom:30px;
+}
+/* section5 */
+.section5{
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+.foods{
+    /* margin-top:50px; */
+    height:35vh;
+    width:100vw;
+}
+.ff1{
+   margin-left:25vw;
+}
+.ff2{
+    margin-left:12vw;
+}
+.f-cards{
+    padding-left:40px;
+    padding-right:40px;
+}
+.card{
+    margin:10px;
+    border-radius: 25px;
+}
+.f-desc{
+    font-weight: bold;
+    font-size: 10px;
+}
+.delivery1{
+    margin-top:5px;
+    margin-left:35px;
+    height:300px;
+    width:300px;
+    /* background-color: rgba(161, 248, 161, 0.831); */
+    border-radius: 50%;
+}
+.f-item{
+    font-size: 30px;
+    margin-left:-50px;
+    margin-right:20px;
+}
+.gg{
+    margin-left:39vw;
+    margin-top:10vh;
+}
+
+
+/* section6 */
+.section6{
+    margin-top:50px;
+    margin-right:40px;
+    margin-left:40px;
+}
+.chp{
+    padding-left:40px;
+    padding-right:40px;
+}
+.cf1{
+    margin-left:30vw;
+ }
+.cf2{
+    margin-left:9vw;
+}
+.delivery2{
+    height:300px;
+    width:auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px;
+}
+.below{
+    margin-top:15vh;
+}
+.more-below{
+    margin-top:25vh;
+}
+/* section7 */
+.section7{
+   margin-bottom:5vh;
+}
+.spice{
+    position:absolute;
+    top:880vh;
+}
+.spice img{
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
+.cf4{
+    margin-top:15vh;
+    margin-left:10vw;
+}
+.input{
+    width:40vw;
+    margin-left:30vw;
+    margin-top:20vh;
+}
+.input-group{
+    border-radius:25px;
+}
+.g1{
+    background-color: rgb(227, 155, 21);
+    color:white;
+}
+.final-imgg img{
+    height: 300px;
+    width: 350px;
+    border-radius: 40px;
+}
+.final-imgg{
+    position:absolute;
+    top:880vh;
+    left:72vw;
+}
+
+/* footer */
+.foot{
+    margin-top:50vh;
+    /* border:2px solid black; */
+    margin-left:20px;
+    margin-right:20px;
+}
+.support{
+    margin-top:-25vh;
+    width:50vw;
+    margin-left:45vw;
+}
+.title{
+    font-size:40px;
+    margin-left:40px;
+}
+.l{
+    font-size: 30px;
+    margin:4px;
+}
+.goto{
+    margin-top:50px;
+    margin-left:50px;
+    width:30vw;
+}
